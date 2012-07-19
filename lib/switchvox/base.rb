@@ -78,8 +78,8 @@ class Base
           pp response_json 
           puts "\n\n"
         end
-        response_obj = response_json["response"]["result"].to_obj
-        return response_obj
+        response_result = response_json["response"]["result"]
+        return response_result
       when Net::HTTPUnauthorized
         login!
         request(method, parameters)
