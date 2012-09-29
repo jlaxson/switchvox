@@ -15,8 +15,10 @@ $hoe = Hoe.spec 'switchvox' do
   self.developer 'Carl Hicks', 'carl.hicks@gmail.com'
   self.rubyforge_name       = self.name # TODO this is default value
   self.extra_deps           = [['json']]
-
 end
+
+$hoe.spec.files -= ['.gemtest']
+
 
 require 'newgem/tasks'
 Dir['tasks/**/*.rake'].each { |t| load t }

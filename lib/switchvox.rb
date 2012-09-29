@@ -5,5 +5,5 @@ require 'switchvox/net_http_digest_auth'
 require 'switchvox/base'
 
 module Switchvox
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
 end
