@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = ["carl.hicks@gmail.com"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.rdoc"]
   s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/switchvox.rb", "lib/switchvox/base.rb", "lib/switchvox/net_http_digest_auth.rb", "script/console", "script/destroy", "script/generate", "test/test_helper.rb", "test/test_switchvox.rb"]
-  s.homepage = "Remove converting hash to objects, it fail on ruby 1.9.1 and rails 3.2 when call time.to_s(:db)"
+  #s.homepage = "Remove converting hash to objects, it fail on ruby 1.9.1 and rails 3.2 when call time.to_s(:db)"
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "switchvox"
